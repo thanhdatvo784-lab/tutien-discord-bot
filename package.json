@@ -1,0 +1,13 @@
+{
+  "name": "tutien-discord-bot",
+  "version": "0.1.0",
+  "description": "A scalable Discord cultivation MMORPG bot.",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "tsx watch src/index.ts",
+    "start": "node dist/index.js",
+    "build": "tsc",
+    "lint": "eslint ."
+  }
+}
