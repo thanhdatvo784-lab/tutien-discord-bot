@@ -9,5 +9,20 @@
     "start": "node dist/index.js",
     "build": "tsc",
     "lint": "eslint ."
+  },
+  "dependencies": {
+    "chalk": "^5.6.2",
+    "discord.js": "^14.26.5",
+    "dotenv": "^17.4.2",
+    "mongoose": "^9.7.4",
+    "winston": "^3.19.0",
+    "zod": "^4.4.3"
+  },
+  "devDependencies": {
+    "@types/node": "^26.1.1",
+    "eslint": "^10.7.0",
+    "prettier": "^3.9.5",
+    "tsx": "^4.23.1",
+    "typescript": "^7.0.2"
   }
 }
